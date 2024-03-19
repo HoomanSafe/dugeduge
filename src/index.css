@@ -1,0 +1,17 @@
+@import url("https://fonts.cdnfonts.com/css/titan-one");
+@import url("https://fonts.googleapis.com/css2?family=Gorditas&display=swap");
+@import url("https://fonts.cdnfonts.com/css/luckiest-guy");
+
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+@layer {
+  #hero {
+    background: url(./assets/hero-bg.png) center center no-repeat;
+    background-size: cover;
+  }
+  img {
+    @apply mx-auto;
+  }
+}
